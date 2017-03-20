@@ -1,0 +1,15 @@
+@charset 'UTF-8';
+@import 'normalize';
+
+body {
+	background-color: #333;
+}
+canvas {
+	height: calc(100vh - 6px);
+	width: 100vw;
+	margin: 0 auto;
+	border: 1px solid #fff;
+	border-left: none;
+	border-right: none;
+	image-rendering: pixelated;
+}
